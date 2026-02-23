@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - SmileFix Dental Care</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<!-- PAGE CONTENT -->
+<div class="page-content" id="pageContent">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="SmileFix Dental Care logo" class="logo-img">
+                <h2>SmileFix <span>Dental Care</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="treatment.html">Services</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Patient Reviews</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-appointment-nav">Book an Appointment</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+        <!-- PREMIUM PAGE LOADER -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">Our Patients</div>
+            <div class="loader-line">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="services-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="section-badge text-reveal">Real Patient Cases</span>
+                <h1 class="hero-title text-reveal">Real Smiles. Real Transformations. No shortcuts.</h1>
+                <p class="hero-description text-reveal">
+                    Every case below represents a real patient, their concern, and a carefully planned treatment designed for long-term results—not shortcuts.
+                </p>
+                <p class="hero-trust-line text-reveal">Before & after images shown with patient consent.</p>
+            </div>
+            <div class="hero-image parallax-wrapper fade-in">
+                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1000&q=80" alt="Patient Success" class="parallax-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Read Section -->
+    <section class="category-nav">
+        <div class="category-container">
+            <div class="how-to-read-title">
+                <h2 class="text-reveal">How to Read Each Case</h2>
+            </div>
+            <div class="category-grid">
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Patient Concern</h3>
+                    <p class="category-subtitle">What the patient came with</p>
+                </div>
+
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Our Treatment Plan</h3>
+                    <p class="category-subtitle">How we solved it</p>
+                </div>
+
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9"/>
+                            <line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Outcome & Experience</h3>
+                    <p class="category-subtitle">Final result + patient words</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Your Custom Styles -->
+    <style>
+        /* ============================================
+           TREATMENTS SECTION - SWIPER.JS IMPLEMENTATION
+           Matching Your Design Theme
+           ============================================ */
+        
+        .treatments-section {
+            padding: 10rem 5% 6rem;
+            background: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .treatments-container {
+            max-width: 1500px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* ============================================
+           SECTION HEADER - MATCHING YOUR STYLE
+           ============================================ */
+
+        .treatments-header {
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+
+        /* Blue Badge Label */
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.65rem 1.5rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #1976D2;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-label::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #1976D2;
+            border-radius: 50%;
+        }
+
+        /* Main Title */
+        .treatments-title {
+            font-family: "Instrument Serif", serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: #0a0a0a;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+            position: relative;
+        }
+
+        .treatments-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #1976D2;
+            margin-top: 1.5rem;
+            border-radius: 2px;
+        }
+
+        /* Subtitle */
+        .treatments-subtitle {
+            font-size: 1.05rem;
+            color: #6B7280;
+            line-height: 1.7;
+            max-width: 750px;
+            font-weight: 400;
+        }
+
+        /* ============================================
+           SWIPER CONTAINER
+           ============================================ */
+
+        .treatmentsSwiper {
+            width: 100%;
+            padding: 2rem 0 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .swiper-wrapper {
+            align-items: stretch;
+        }
+
+        /* ============================================
+           TREATMENT CARD - MATCHING YOUR THEME
+           ============================================ */
+
+        .treatment-card {
+            background: #FFFFFF;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .treatment-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+            border-color: rgba(25, 118, 210, 0.15);
+        }
+
+        /* Image Container */
+        .treatment-image-container {
+            position: relative;
+            height: 480px;
+            object-fit: cover;
+            overflow: hidden;
+            background: linear-gradient(135deg, #F0F4F8 0%, #E8EFF5 100%);
+        }
+
+        .treatment-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .treatment-card:hover .treatment-image {
+            transform: scale(1.05);
+        }
+
+        /* Badge */
+        .treatment-badge {
+            position: absolute;
+            top: 1.25rem;
+            right: 1.25rem;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 0.6rem 1.25rem;
+            border-radius: 25px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #1976D2;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(25, 118, 210, 0.15);
+            z-index: 2;
+        }
+
+        /* Content */
+        .treatment-content {
+            padding: 1rem 1rem 2rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .treatment-name {
+            font-family: "Instrument Serif", serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0a0a0a;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+            transition: color 0.3s ease;
+        }
+
+        .treatment-card:hover .treatment-name {
+            color: #1976D2;
+        }
+
+
+        /* ============================================
+           SWIPER NAVIGATION BUTTONS - CUSTOM STYLE
+           Blue Circular Buttons Matching Your Theme
+           ============================================ */
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            width: 50px;
+            height: 50px;
+            background: #ffffff;
+            border-radius: 50%;
+            box-shadow: 0 4px 20px rgba(25, 118, 210, 0.25);
+            transition: all 0.3s ease;
+        }
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1565C0;
+        }
+
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+            background: #ffffff;
+            transform: scale(1.08);
+            box-shadow: 0 6px 28px rgba(25, 118, 210, 0.35);
+        }
+
+        .swiper-button-disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        /* Position adjustments */
+        .swiper-button-prev {
+            left: -10px;
+        }
+
+        .swiper-button-next {
+            right: -10px;
+        }
+
+        /* ============================================
+           RESPONSIVE DESIGN
+           ============================================ */
+
+        @media (max-width: 1024px) {
+            .treatments-section {
+                padding: 4rem 4% 5rem;
+            }
+
+            .treatments-title {
+                font-size: 2.4rem;
+            }
+
+            .treatment-image-container {
+                height: 250px;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 55px;
+                height: 55px;
+            }
+
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .treatments-section {
+                padding: 3.5rem 5% 4rem;
+            }
+
+            .treatments-header {
+                margin-bottom: 3rem;
+            }
+
+            .section-label {
+                font-size: 0.75rem;
+                padding: 0.6rem 1.25rem;
+            }
+
+            .treatments-title {
+                font-size: 2rem;
+            }
+
+            .treatments-title::after {
+                width: 50px;
+                height: 2px;
+                margin-top: 1.25rem;
+            }
+
+            .treatments-subtitle {
+                font-size: 0.95rem;
+            }
+
+            .treatment-image-container {
+                height: 240px;
+            }
+
+            .treatment-content {
+                padding: 1.75rem 1.5rem 2rem;
+            }
+
+            .treatment-name {
+                font-size: 1.4rem;
+            }
+
+            .treatment-description {
+                font-size: 0.92rem;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 50px;
+                height: 50px;
+            }
+
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 16px;
+            }
+
+            .swiper-button-prev {
+                left: -10px;
+            }
+
+            .swiper-button-next {
+                right: -10px;
+            }
+
+            .view-all-button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .treatments-section {
+                padding: 3rem 1.25rem 3.5rem;
+            }
+
+            .section-label {
+                font-size: 0.7rem;
+                padding: 0.55rem 1.15rem;
+            }
+
+            .section-label::before {
+                width: 6px;
+                height: 6px;
+            }
+
+            .treatments-title {
+                font-size: 1.75rem;
+            }
+
+            .treatment-image-container {
+                height: 350px;
+            }
+
+            .treatment-badge {
+                top: 1rem;
+                right: 1rem;
+                padding: 0.5rem 1rem;
+                font-size: 0.65rem;
+            }
+
+            .treatment-content {
+                padding: 1.5rem 1.25rem 1.75rem;
+            }
+
+            .treatment-name {
+                font-size: 1.3rem;
+            }
+
+            .treatment-description {
+                font-size: 0.88rem;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 36px;
+                height: 36px;
+            }
+
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+
+<!-- Treatments Section with Swiper -->
+<section class="treatments-section" id="treatments">
+    <div class="treatments-container">
+        
+        <!-- Section Header -->
+        <div class="treatments-header">
+            <div class="section-label">Our Services</div>
+            <h2 class="treatments-title">Comprehensive Treatments We Specialize In</h2>
+            <p class="treatments-subtitle">From preventive care to advanced procedures, every treatment is handled with precision, comfort, and personalized attention.</p>
+        </div>
+
+        <!-- Swiper Carousel -->
+        <div class="swiper treatmentsSwiper">
+            <div class="swiper-wrapper">
+                
+                <!-- Slide 1: Tooth Replacement -->
+                <div class="swiper-slide">
+                    <div class="treatment-card">
+                        <div class="treatment-image-container">
+                            <img src="images/patient 6.jpeg" alt="Tooth Replacement" class="treatment-image">
+                        </div>
+                        <div class="treatment-content">
+                            <h3 class="treatment-name">Tooth Replacement</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Dental Implants -->
+                <div class="swiper-slide">
+                    <div class="treatment-card">
+                        <div class="treatment-image-container">
+                            <img src="images/patient 3.jpeg" alt="Dental Implants" class="treatment-image">
+                        </div>
+                        <div class="treatment-content">
+                            <h3 class="treatment-name">Dentures</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Orthodontic Correction -->
+                <div class="swiper-slide">
+                    <div class="treatment-card">
+                        <div class="treatment-image-container">
+                            <img src="images/patient 1.jpeg" alt="Orthodontic Correction" class="treatment-image">
+                        </div>
+                        <div class="treatment-content">
+                            <h3 class="treatment-name">Esthetic filling</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Dentures -->
+                <div class="swiper-slide">
+                    <div class="treatment-card">
+                        <div class="treatment-image-container">
+                            <img src="images/patient 5.jpeg" alt="Dentures" class="treatment-image">
+                        </div>
+                        <div class="treatment-content">
+                            <h3 class="treatment-name">Pediatric fillings</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5: Esthetic Smile Correction -->
+                <div class="swiper-slide">
+                    <div class="treatment-card">
+                        <div class="treatment-image-container">
+                            <img src="images/patient 2.jpeg" alt="Esthetic Smile Correction" class="treatment-image">
+                        </div>
+                        <div class="treatment-content">
+                            <h3 class="treatment-name">Teeth whitening</h3>
+                        </div>
+                    </div>
+                </div>
+
+                       <!-- Slide 6: Esthetic Smile Correction -->
+                <div class="swiper-slide">
+                    <div class="treatment-card">
+                        <div class="treatment-image-container">
+                            <img src="images/patient 4.jpeg" alt="Esthetic Smile Correction" class="treatment-image">
+                        </div>
+                        <div class="treatment-content">
+                            <h3 class="treatment-name">Esthetic Smile Correction</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+    </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    const swiper = new Swiper('.treatmentsSwiper', {
+        // Number of slides visible
+        slidesPerView: 3,
+        spaceBetween: 30,
+        
+        // Auto-play settings
+        autoplay: {
+            delay: 4000,              // 4 seconds per slide
+            disableOnInteraction: false, // Continue after user interaction
+            pauseOnMouseEnter: true,  // Pause when hovering
+        },
+        
+        // Infinite loop
+        loop: true,
+        
+        // Smooth speed
+        speed: 600,
+        
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        
+        // Responsive breakpoints
+        breakpoints: {
+            // Mobile
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            // Tablet
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 25,
+            },
+            // Desktop
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        },
+        
+        // Smooth effect
+        effect: 'slide',
+        
+        // Keyboard control
+        keyboard: {
+            enabled: true,
+            onlyInViewport: true,
+        },
+        
+        // Touch/Swipe settings
+        touchRatio: 1,
+        touchAngle: 45,
+        grabCursor: true,
+    });
+
+    // Optional: Log to console
+    console.log('✓ Swiper.js Treatments Carousel Initialized');
+    console.log('  - Auto-play: 4 seconds');
+    console.log('  - Infinite loop: Enabled');
+    console.log('  - Pause on hover: Enabled');
+    console.log('  - Responsive: 3 → 2 → 1 slides');
+</script>
+
+
+  <!-- Contact/Appointment Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <!-- Section Header -->
+            <div class="contact-header">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="contact-title">Book Your Appointment</h2>
+                <p class="contact-subtitle">Take the first step towards your perfect smile. Our team is ready to help you.</p>
+            </div>
+
+            <!-- Two Column Content -->
+            <div class="contact-content">
+                <!-- Left Column - Contact Information -->
+                <div class="contact-info">
+                    <h3 class="info-heading">Let's Talk About Your Smile</h3>
+                    
+                    <!-- EMOTIONAL LINE -->
+                    <p class="info-emotional">
+                        Most patients come in feeling unsure. They leave feeling confident.
+                    </p>
+
+                    <p class="info-text">
+                        Whether you need a routine check-up or a complete smile makeover, we're here to provide personalized care tailored to your needs.
+                    </p>
+
+                    <div class="contact-details">
+                        <!-- Phone -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Call Us</div>
+                                <div class="detail-value"><a href="tel:+11234567890">09994827342</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Email Us</div>
+                                <div class="detail-value"><a href="mailto:info@smilefix.com">dr.joyangel@gmail.com</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Visit Us</div>
+                                <div class="detail-value">
+                                    No.1 Ramakrishna Street Mannivakkam, Vandalur,<br>
+                                    Chennai, Tamil Nadu 600048
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Office Hours</div>
+                                <div class="detail-value">
+                                    Monday - Friday: 10am - 2pm & 5pm - 8pm<br>
+                                    Saturday Morning: 10am - 2pm<br>
+                                    Sunday: Closed
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Appointment Form -->
+                <div class="appointment-form-wrapper">
+
+
+                    <form id="appointmentForm">
+                        <!-- SECTION 1: Your Details -->
+                        <div class="form-section">
+                            <div class="form-section-label">Fill Your Details</div>
+                            
+                            <!-- Name Row -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="firstName">
+                                        First Name <span class="required">*</span>
+                                    </label>
+                                    <input type="text" id="firstName" class="form-input" placeholder="Enter your first name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="lastName">
+                                        Last Name <span class="required">*</span>
+                                    </label>
+                                    <input type="text" id="lastName" class="form-input" placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+
+                            <!-- Contact Row -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="email">
+                                        Email <span class="required">*</span>
+                                    </label>
+                                    <input type="email" id="email" class="form-input" placeholder="Enter your email address" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">
+                                        Phone Number <span class="required">*</span>
+                                    </label>
+                                    <input type="tel" id="phone" class="form-input" placeholder="Enter your phone number" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SECTION 2: Treatment & Appointment -->
+                        <div class="form-section">
+                            <div class="form-section-label">Appointment Preferences</div>
+                            
+                            <!-- HERO TREATMENT INPUT -->
+                            <div class="treatment-group">
+                                <div class="treatment-helper">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                                    </svg>
+                                    What brings you in today?
+                                </div>
+                                <label class="form-label" for="treatment">
+                                    Treatment Interest <span class="required">*</span>
+                                </label>
+                                <select id="treatment" class="form-select" required>
+                                    <option value="">Select a treatment...</option>
+                                    <optgroup label="Popular Treatments">
+                                        <option value="dental-implants">Dental Implants</option>
+                                        <option value="orthodontic-correction">Orthodontic Correction (Braces/Aligners)</option>
+                                        <option value="esthetic-smile-correction">Esthetic Smile Correction (Veneers)</option>
+                                    </optgroup>
+                                    <optgroup label="Restorative Care">
+                                        <option value="tooth-replacement">Tooth Replacement</option>
+                                        <option value="dentures">Dentures</option>
+                                        <option value="dental-crowns">Dental Crowns & Bridges</option>
+                                        <option value="root-canal">Root Canal Treatment</option>
+                                    </optgroup>
+                                    <optgroup label="Cosmetic Dentistry">
+                                        <option value="teeth-whitening">Complete Smile makeover</option>
+                                        <option value="smile-makeover">Dental veneers</option>
+                                        <option value="bonding">Teeth whitening</option>
+                                        <option value="teeth-alignment">Teeth alignment</option>
+                                    </optgroup>
+                                    <optgroup label="General & Preventive">
+                                        <option value="general-checkup">General Check-up & Cleaning</option>
+                                        <option value="preventive-care">Preventive Care</option>
+                                        <option value="emergency">Emergency Dental Care</option>
+                                    </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="consultation">Consultation</option>
+                                        <option value="not-sure">Not Sure / Need Guidance</option>
+                                    </optgroup>
+                                </select>
+                                <div class="treatment-info">
+                                    Don't worry if you're unsure—we'll help you determine the best treatment during your visit.
+                                </div>
+                            </div>
+
+                            <!-- Preferred Date and Time -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="preferredDate">
+                                        Preferred Date <span class="required">*</span>
+                                    </label>
+                                    <input type="date" id="preferredDate" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="preferredTime">
+                                        Preferred Time <span class="required">*</span>
+                                    </label>
+                                    <select id="preferredTime" class="form-select" required>
+                                        <option value="">Select time...</option>
+                                        <option value="morning">Morning (10 AM - 12 PM)</option>
+                                        <option value="afternoon">Afternoon (12 PM - 2 PM)</option>
+                                        <option value="evening">Evening (5 PM - 8 PM)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Additional Notes -->
+                            <div class="form-group">
+                                <label class="form-label" for="message">
+                                    Additional Notes (Optional)
+                                </label>
+                                <textarea id="message" class="form-textarea" placeholder="Tell us about any specific concerns, questions, or special requirements..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-button">
+                            Book Appointment
+                        </button>
+
+                        <!-- MICRO-TRUST UNDER BUTTON -->
+                        <div class="button-trust">
+                            No commitment. We'll confirm before scheduling.
+                        </div>
+
+                        <!-- Form Note -->
+                        <p class="form-note">
+                            By submitting this form, you agree to our privacy policy. We'll contact you within 24 hours.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <h2 class="footer-logo">SmileFix Dental Care</h2>
+                    <p class="footer-description">
+                        Expert dental care with a gentle touch. We combine advanced technology with compassionate service to deliver exceptional results for your smile.
+                    </p>
+                    <span class="footer-badge">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                        Trusted by 5K+ Happy Patients
+                    </span>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="treatment.html">Treatments</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Services -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="treatment.html">Tooth Replacement</a></li>
+                        <li><a href="treatment.html">Dental Implants</a></li>
+                        <li><a href="treatment.html">Orthodontic Correction</a></li>
+                        <li><a href="treatment.html">clear Aligners</a></li>
+                        <li><a href="treatment.html">Esthetic Smile Correction</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Info</h3>
+                    
+                    <!-- Phone -->
+                    <div class="contact-item">
+                        <div class="contact-label">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                            Phone
+                        </div>
+                        <div class="contact-value">
+                            <a href="tel:09994827342">09994827342</a>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="contact-item">
+                        <div class="contact-label">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            Email
+                        </div>
+                        <div class="contact-value">
+                            <a href="mailto:drjoyangel@smilefix.com">drjoyangel@smilefix.com</a>
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="contact-item">
+                        <div class="contact-label">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            Address
+                        </div>
+                        <div class="contact-address">
+                            No.1 Ramakrishna Street Mannivakkam, Vandalur,<br>
+                            Chennai, Tamil Nadu 600048
+                        </div>
+                    </div>
+
+                    <!-- Office Hours -->
+                    <div class="contact-item">
+                        <div class="contact-label">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                                <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                            </svg>
+                            Hours
+                        </div>
+                        <div class="hours-box">
+                            <div class="hours-title">Monday - Friday</div>
+                            <div class="hours-time">10am - 2pm & 5pm - 8pm</div>
+                            <div class="hours-title">Saturday Morning</div>
+                            <div class="hours-time">10am - 2pm</div>
+                            <div class="hours-closed">Sunday: Closed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div>
+                    <div class="footer-copyright">
+                        © 2025 SmileFix Dental Care. All rights reserved.
+                    </div>
+                    <div class="footer-credentials">
+                        Dr. Joy Angel (Advanced Dental care with Minimally Invasive protocols)
+                    </div>
+                </div>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="disclaimer.html">Disclaimer</a>
+                    <a href="https://shavanxcoder.space" class="footer-legal-link" target="_blank" rel="noopener noreferrer" title="Developed by shavanxcoder">Developed by ShavanXCoder</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+
+    <script src="contact.js"></script>
+</body>
+</html>

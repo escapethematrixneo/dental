@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - SmileFix Dental Care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="treatment.css">
+</head>
+<body>
+
+<!-- PAGE CONTENT -->
+<div class="page-content" id="pageContent">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="SmileFix Dental Care logo" class="logo-img">
+                <h2>SmileFix <span>Dental Care</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="treatment.html">Services</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Patient Reviews</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-appointment-nav">Book an Appointment</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PREMIUM PAGE LOADER -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">Treatments in SmileFix</div>
+            <div class="loader-line">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="services-hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="section-badge text-reveal">Our Treatments</span>
+                <h1 class="hero-title text-reveal">Comprehensive Dental Care Tailored to Your Needs</h1>
+                <p class="hero-description text-reveal">
+                    From routine check-ups to complete smile transformations, every treatment at SmileFix is performed with precision, care, and your comfort in mind. We use modern techniques to deliver lasting results—without unnecessary procedures.
+                </p>
+                <p class="hero-trust-line text-reveal">Honest recommendations. Gentle care. Proven results.</p>
+            </div>
+            <div class="hero-image parallax-wrapper fade-in">
+                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1000&q=80" alt="Dental Treatment" class="parallax-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Navigation -->
+    <section class="category-nav">
+        <div class="category-container">
+            <div class="category-grid">
+                <div class="category-card fade-in" onclick="scrollToCategory('teeth-replacement')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Teeth Replacement</h3>
+                    <p class="category-subtitle">Restore your complete smile</p>
+                </div>
+
+                <div class="category-card fade-in" onclick="scrollToCategory('teeth-alignment')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Teeth Alignment</h3>
+                    <p class="category-subtitle">Straighten your smile</p>
+                </div>
+
+                <div class="category-card fade-in" onclick="scrollToCategory('pain-management')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Dental Pain Management</h3>
+                    <p class="category-subtitle">Relief when you need it</p>
+                </div>
+
+                <div class="category-card fade-in" onclick="scrollToCategory('preventive')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9"/>
+                            <line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Preventive Dentistry</h3>
+                    <p class="category-subtitle">Keep your smile healthy</p>
+                </div>
+
+                <div class="category-card fade-in" onclick="scrollToCategory('paediatric')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Paediatric Dentistry</h3>
+                    <p class="category-subtitle">Gentle care for children</p>
+                </div>
+
+                <div class="category-card fade-in" onclick="scrollToCategory('biomimetic')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Biomimetic Dentistry</h3>
+                    <p class="category-subtitle">Minimally invasive care</p>
+                </div>
+
+                <div class="category-card fade-in" onclick="scrollToCategory('laser')">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Laser Dentistry</h3>
+                    <p class="category-subtitle">Advanced laser treatments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments Section -->
+    <section class="treatments-section">
+        <div class="treatments-container">
+            
+            <!-- CATEGORY 1: Teeth Replacement -->
+            <div class="category-section" id="teeth-replacement">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Complete Restoration</span>
+                    <h2 class="category-title text-reveal">Teeth Replacement</h2>
+                    <p class="category-description text-reveal">Restore your complete smile with advanced replacement solutions</p>
+                </div>
+
+                <div class="treatment-cards">
+                    <!-- Treatment 1: Dental Implants -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment1.jpg" alt="Dental Implants">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Dental Implants</h3>
+                                <p class="treatment-brief">Permanent tooth replacement solution that looks, feels, and functions like natural teeth.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Dental implants are titanium posts surgically placed into the jawbone to serve as artificial tooth roots, topped with custom crowns for a permanent solution.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Permanent and durable solution</li>
+                                        <li>Preserves jawbone health</li>
+                                        <li>Natural appearance and function</li>
+                                    </ul>
+                                </div>
+                              
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 2: Smile Makeover -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment2.jpeg" alt="Smile Makeover">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Smile Makeover</h3>
+                                <p class="treatment-brief">Comprehensive transformation combining multiple procedures for a stunning new smile.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">A customized treatment plan combining veneers, whitening, crowns, and other procedures to achieve your dream smile.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Complete smile transformation</li>
+                                        <li>Personalized treatment plan</li>
+                                        <li>Addresses multiple concerns at once</li>
+                                    </ul>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 3: Dental Crowns and Bridges -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment3.jpeg" alt="Crowns and Bridges">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Dental Crowns and Bridges</h3>
+                                <p class="treatment-brief">Restore damaged teeth or replace missing teeth with durable, natural-looking solutions.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Crowns cap damaged teeth while bridges replace missing teeth by anchoring to adjacent teeth.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Strengthens weakened teeth</li>
+                                        <li>Restores function and appearance</li>
+                                        <li>Long-lasting solution</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">2 visits</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 4: Dentures -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment4.jpeg" alt="Dentures">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Dentures</h3>
+                                <p class="treatment-brief">Removable appliances to replace multiple missing teeth and restore your smile.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Custom-made removable replacements for missing teeth, available as partial or complete dentures.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Affordable tooth replacement</li>
+                                        <li>Restores eating and speaking ability</li>
+                                        <li>Improves facial appearance</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">4-5 visits over 10 Days</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 5: Full Mouth Rehabilitation -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment5.jpeg" alt="Full Mouth Rehabilitation">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Full Mouth Rehabilitation</h3>
+                                <p class="treatment-brief">Comprehensive reconstruction of all teeth for optimal function and aesthetics.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Complete restoration of all teeth using combinations of crowns, bridges, implants, and other procedures.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Restores complete oral function</li>
+                                        <li>Addresses multiple dental issues</li>
+                                        <li>Improves overall quality of life</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">2 Weeks</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 6: Dental Fillings -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment6.jpeg" alt="Dental Fillings">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Dental Fillings</h3>
+                                <p class="treatment-brief">Repair cavities with tooth-colored fillings that blend naturally with your smile.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Remove decay and fill the cavity with composite resin material that matches your natural tooth color.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Stops decay progression</li>
+                                        <li>Natural appearance</li>
+                                        <li>Preserves tooth structure</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">30-60 minutes per filling</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 7: Inlays & Onlays -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment7.jpeg" alt="Inlays and Onlays">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Inlays & Onlays</h3>
+                                <p class="treatment-brief">Precision-fitted restorations for moderate tooth damage between fillings and crowns.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Custom-made restorations that fit precisely into (inlay) or over (onlay) the prepared tooth structure.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Stronger than regular fillings</li>
+                                        <li>Preserves more natural tooth</li>
+                                        <li>Excellent durability</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">2 visits over 2 weeks</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY 2: Teeth Alignment -->
+            <div class="category-section" id="teeth-alignment">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Straighten Your Smile</span>
+                    <h2 class="category-title text-reveal">Teeth Alignment</h2>
+                    <p class="category-description text-reveal">Modern orthodontic solutions for perfectly aligned teeth</p>
+                </div>
+
+                <div class="treatment-cards">
+
+                    <!-- Treatment 1: Advanced Clear Aligners -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment10.jpeg" alt="Clear Aligners">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Advanced Clear Aligners</h3>
+                                <p class="treatment-brief">Invisible, removable aligners for discreet orthodontic treatment.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Custom-made transparent plastic trays that gradually shift teeth without the visibility of traditional braces.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Virtually invisible</li>
+                                        <li>Removable for eating and cleaning</li>
+                                        <li>Comfortable and convenient</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">Single Visit</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment9.jpeg" alt="Conventional Braces">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Conventional Braces</h3>
+                                <p class="treatment-brief">Traditional metal or ceramic braces for effective tooth movement and alignment.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Fixed orthodontic appliances with brackets and wires that gradually move teeth into proper position.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Basic</li>
+                                        <li>Self-ligating brackets</li>
+                                        <li>Ceramic Brackets</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">12-14 months average</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY 3: Dental Pain Management -->
+            <div class="category-section" id="pain-management">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Relief & Recovery</span>
+                    <h2 class="category-title text-reveal">Dental Pain Management</h2>
+                    <p class="category-description text-reveal">Advanced treatments to relieve pain and restore oral health</p>
+                </div>
+
+                <div class="treatment-cards">
+                    <!-- Treatment 1: Root Canal Treatment (RCT) -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment11.jpeg" alt="Root Canal">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Root Canal Treatment (RCT)</h3>
+                                <p class="treatment-brief">Save infected teeth with gentle, pain-free root canal therapy.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Remove infected pulp, clean and seal the root canals to save the tooth and eliminate pain.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Saves your natural tooth</li>
+                                        <li>Eliminates infection and pain</li>
+                                        <li>Modern painless techniques</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">1-2 visits, 30 minutes each</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Treatment 3: Periodontal Therapy -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment12.jpeg" alt="Periodontal Therapy">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Periodontal Therapy (Gum Treatment)</h3>
+                                <p class="treatment-brief">Advanced surgical and non-surgical treatments for moderate to severe gum disease.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Comprehensive periodontal care including scaling, root planing, and maintenance therapy.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Surgical and Non-surgical approach</li>
+                                        <li>Reduces pocket depth</li>
+                                        <li>Promotes gum reattachment</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">Multiple sessions + maintenance</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 4: Oral Surgery -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment1.jpg" alt="Oral Surgery">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Oral Surgery</h3>
+                                <p class="treatment-brief">Surgical procedures including extractions and advanced oral surgery.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Surgical treatments including wisdom tooth removal, extractions, and other oral surgical procedures.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Relieves severe pain</li>
+                                        <li>Prevents complications</li>
+                                        <li>Expert surgical care</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">10-20 minutes per procedure</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY 4: Preventive Dentistry -->
+            <div class="category-section" id="preventive">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Prevention First</span>
+                    <h2 class="category-title text-reveal">Preventive Dentistry</h2>
+                    <p class="category-description text-reveal">Keep your smile healthy with regular preventive care</p>
+                </div>
+
+                <div class="treatment-cards">
+                    <!-- Treatment 1: Teeth Cleaning -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment2.jpeg" alt="Teeth Cleaning">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Teeth Cleaning</h3>
+                                <p class="treatment-brief">Professional cleaning to remove plaque, tartar, and stains.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Thorough professional cleaning including scaling and polishing to remove buildup and maintain oral health.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Prevents cavities and gum disease</li>
+                                        <li>Fresh breath</li>
+                                        <li>Brighter, cleaner teeth</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">30-60 minutes</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 2: Dental X-Rays -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment3.jpeg" alt="Dental X-Rays">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Dental X-Rays</h3>
+                                <p class="treatment-brief">Advanced digital imaging for accurate diagnosis and treatment planning.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Digital X-ray imaging to detect cavities, bone loss, and other issues not visible during examination.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Early problem detection</li>
+                                        <li>Low radiation digital technology</li>
+                                        <li>Accurate treatment planning</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">10-15 minutes</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 3: Oral Cancer Screening -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment4.jpeg" alt="Oral Cancer Screening">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Oral Cancer Screening</h3>
+                                <p class="treatment-brief">Early detection screening for oral cancer and abnormalities.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Comprehensive examination to identify early signs of oral cancer and pre-cancerous conditions.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Early detection saves lives</li>
+                                        <li>Non-invasive screening</li>
+                                        <li>Peace of mind</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">10-15 minutes</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY 5: Paediatric Dentistry -->
+            <div class="category-section" id="paediatric">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Care for Kids</span>
+                    <h2 class="category-title text-reveal">Paediatric Dentistry</h2>
+                    <p class="category-description text-reveal">Gentle, specialized dental care for children</p>
+                </div>
+
+                <div class="treatment-cards">
+                    <!-- Treatment 1: Paediatric Dentistry -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment5.jpeg" alt="Paediatric Care">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Paediatric Dentistry</h3>
+                                <p class="treatment-brief">Comprehensive dental care designed specifically for children.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Specialized dental care for infants, children, and teens including preventive care, education, and treatment.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Child-friendly environment</li>
+                                        <li>Gentle, caring approach</li>
+                                        <li>Builds positive dental habits</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">20-45 minutes per visit</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY 6: Biomimetic Minimally Invasive Dentistry -->
+            <div class="category-section" id="biomimetic">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Advanced Care</span>
+                    <h2 class="category-title text-reveal">Biomimetic Minimally Invasive Dentistry</h2>
+                    <p class="category-description text-reveal">Conservative treatments that preserve natural tooth structure</p>
+                </div>
+
+                <div class="treatment-cards">
+                    <!-- Treatment 1: Biomimetic Dentistry -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment6.jpeg" alt="Biomimetic Dentistry">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Biomimetic Minimally Invasive Dentistry</h3>
+                                <p class="treatment-brief">Modern approach that mimics natural tooth structure and preserves healthy tissue.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Advanced restorative techniques that preserve maximum natural tooth structure and mimic natural tooth properties.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Preserves natural tooth structure</li>
+                                        <li>Minimally invasive approach</li>
+                                        <li>Longer-lasting restorations</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">Varies by procedure</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY 7: Laser Dentistry -->
+            <div class="category-section" id="laser">
+                <div class="category-header">
+                    <span class="section-badge fade-in">Cutting-Edge Technology</span>
+                    <h2 class="category-title text-reveal">Laser Dentistry</h2>
+                    <p class="category-description text-reveal">Advanced laser treatments for precision and comfort</p>
+                </div>
+
+                <div class="treatment-cards">
+                    <!-- Treatment 1: Teeth Whitening (Laser) -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment7.jpeg" alt="Laser Teeth Whitening">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Teeth Whitening (Laser-Assisted)</h3>
+                                <p class="treatment-brief">Advanced laser whitening for dramatic, fast results.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Professional laser-activated whitening system for quick, dramatic whitening results.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Immediate results</li>
+                                        <li>Safe and effective</li>
+                                        <li>Several shades brighter</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">60-90 minutes</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 2: Gum Depigmentation -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment8.jpeg" alt="Gum Depigmentation">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Gum Depigmentation</h3>
+                                <p class="treatment-brief">Laser treatment to remove dark pigmentation for a pink, healthy gum appearance.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Laser procedure to safely remove excess melanin pigmentation from gums for improved aesthetics.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Painless procedure</li>
+                                        <li>Quick healing</li>
+                                        <li>Beautiful pink gums</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">30-60 minutes</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 3: Tongue Tie Relief -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment9.jpeg" alt="Tongue Tie Relief">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Tongue Tie Relief</h3>
+                                <p class="treatment-brief">Laser frenectomy to release tongue tie for improved function.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Laser procedure to release restricted tongue movement caused by tight frenulum.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Improves speech and eating</li>
+                                        <li>Minimal bleeding and discomfort</li>
+                                        <li>Fast healing</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">15-30 minutes</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Treatment 4: Laser Surgeries -->
+                    <div class="treatment-card fade-in">
+                        <div class="treatment-header" onclick="toggleTreatment(this)">
+                            <div class="treatment-image-wrapper">
+                                <img src="images/treatment10.jpeg" alt="Laser Surgery">
+                            </div>
+                            <div class="treatment-header-content">
+                                <h3 class="treatment-name">Laser Surgeries</h3>
+                                <p class="treatment-brief">Advanced laser procedures for various dental surgical needs.</p>
+                            </div>
+                            <div class="treatment-toggle">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="treatment-details">
+                            <div class="treatment-details-inner">
+                                <div class="detail-section">
+                                    <h4 class="detail-title">What is it?</h4>
+                                    <p class="detail-text">Precision laser surgical procedures including soft tissue surgery, gum reshaping, and lesion removal.</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Why choose this?</h4>
+                                    <ul class="benefits-list">
+                                        <li>Less bleeding and swelling</li>
+                                        <li>Faster healing</li>
+                                        <li>Greater precision</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-section">
+                                    <h4 class="detail-title">Treatment Duration</h4>
+                                    <div class="duration-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration-text">Varies by procedure</span>
+                                    </div>
+                                </div>
+                                <div class="treatment-actions">
+                                    <a href="#appointmentForm" class="btn-primary">Book Consultation →</a>
+                                    <button class="btn-secondary" onclick="toggleTreatment(this.closest('.treatment-card').querySelector('.treatment-header'))">Show Less ↑</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="faq-header">
+                <span class="section-badge fade-in">Common Questions</span>
+                <h2 class="faq-title text-reveal">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">
+                    How do I know which treatment I need?
+                </div>
+                <div class="faq-answer">
+                    We offer free consultations to assess your needs. Our experienced dentists will examine your teeth and recommend the most appropriate treatment based on your specific condition.
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">
+                    Do treatments hurt?
+                </div>
+                <div class="faq-answer">
+                    We use modern, gentle techniques and local anesthesia when needed. Our priority is your comfort throughout every procedure.
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">
+                    How much do treatments cost?
+                </div>
+                <div class="faq-answer">
+                    Pricing varies depending on the treatment. We provide transparent estimates during your consultation before any work begins.
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">
+                    Can I get multiple treatments in one visit?
+                </div>
+                <div class="faq-answer">
+                    Yes, we can often combine compatible treatments to save you time and reduce the number of visits needed.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-title text-reveal">Not Sure Which Treatment You Need?</h2>
+            <p class="cta-description text-reveal">
+                Book a free consultation and let us guide you to the right solution for your dental concerns.
+            </p>
+            <a href="#appointmentForm" class="btn-cta">Book Free Consultation →</a>
+            <p class="cta-note">No commitment. Just honest guidance.</p>
+        </div>
+    </section>
+
+    <!-- Contact/Appointment Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <!-- Section Header -->
+            <div class="contact-header">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="contact-title">Book Your Appointment</h2>
+                <p class="contact-subtitle">Take the first step towards your perfect smile. Our team is ready to help you.</p>
+            </div>
+
+            <!-- Two Column Content -->
+            <div class="contact-content">
+                <!-- Left Column - Contact Information -->
+                <div class="contact-info">
+                    <h3 class="info-heading">Let's Talk About Your Smile</h3>
+                    
+                    <!-- EMOTIONAL LINE -->
+                    <p class="info-emotional">
+                        Most patients come in feeling unsure. They leave feeling confident.
+                    </p>
+
+                    <p class="info-text">
+                        Whether you need a routine check-up or a complete smile makeover, we're here to provide personalized care tailored to your needs.
+                    </p>
+
+                    <div class="contact-details">
+                        <!-- Phone -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Call Us</div>
+                                <div class="detail-value"><a href="tel:+11234567890">09994827342</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Email Us</div>
+                                <div class="detail-value"><a href="mailto:info@smilefix.com">info@smilefix.com</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Visit Us</div>
+                                <div class="detail-value">
+                                    1 Ramakrishna Street Mannivakkam, Vandalur,<br>
+                                    Chennai, Tamil Nadu 600048
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <div class="detail-label">Office Hours</div>
+                                <div class="detail-value">
+                                    Monday - Friday: 10am - 2pm & 5pm - 8pm<br>
+                                    Saturday Morning: 10am - 2pm<br>
+                                    Sunday: Closed
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Appointment Form -->
+                <div class="appointment-form-wrapper">
+
+                    <form id="appointmentForm">
+                        <!-- SECTION 1: Your Details -->
+                        <div class="form-section">
+                            <div class="form-section-label">Fill Your Details</div>
+                            
+                            <!-- Name Row -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="firstName">
+                                        First Name <span class="required">*</span>
+                                    </label>
+                                    <input type="text" id="firstName" class="form-input" placeholder="Enter your first name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="lastName">
+                                        Last Name <span class="required">*</span>
+                                    </label>
+                                    <input type="text" id="lastName" class="form-input" placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+
+                            <!-- Contact Row -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="email">
+                                        Email <span class="required">*</span>
+                                    </label>
+                                    <input type="email" id="email" class="form-input" placeholder="Enter your email address">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">
+                                        Phone Number <span class="required">*</span>
+                                    </label>
+                                    <input type="tel" id="phone" class="form-input" placeholder="Enter your phone number" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SECTION 2: Treatment & Appointment -->
+                        <div class="form-section">
+                            <div class="form-section-label">Appointment Preferences</div>
+                            
+                            <!-- HERO TREATMENT INPUT -->
+                            <div class="treatment-group">
+                                <div class="treatment-helper">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                                    </svg>
+                                    What brings you in today?
+                                </div>
+                                <label class="form-label" for="treatment">
+                                    Treatment Interest <span class="required">*</span>
+                                </label>
+                                <select id="treatment" class="form-select" required>
+                                    <option value="">Select a treatment...</option>
+                                    <optgroup label="Teeth Replacement">
+                                        <option value="dental-implants">Dental Implants</option>
+                                        <option value="smile-makeover">Smile Makeover</option>
+                                        <option value="crowns-bridges">Dental Crowns & Bridges</option>
+                                        <option value="dentures">Dentures</option>
+                                        <option value="full-mouth-rehab">Full Mouth Rehabilitation</option>
+                                        <option value="dental-fillings">Dental Fillings</option>
+                                        <option value="inlays-onlays">Inlays & Onlays</option>
+                                    </optgroup>
+                                    <optgroup label="Teeth Alignment">
+                                        <option value="orthodontics">Orthodontics</option>
+                                        <option value="conventional-braces">Conventional Braces</option>
+                                        <option value="clear-aligners">Clear Aligners</option>
+                                    </optgroup>
+                                    <optgroup label="Pain Management">
+                                        <option value="root-canal">Root Canal Treatment</option>
+                                        <option value="periodontal-treatment">Periodontal Treatment</option>
+                                        <option value="oral-surgery">Oral Surgery</option>
+                                    </optgroup>
+                                    <optgroup label="Preventive & Other">
+                                        <option value="teeth-cleaning">Teeth Cleaning</option>
+                                        <option value="oral-cancer-screening">Oral Cancer Screening</option>
+                                        <option value="pediatric">Paediatric Dentistry</option>
+                                        <option value="laser-dentistry">Laser Dentistry</option>
+                                        <option value="teeth-whitening">Teeth Whitening</option>
+                                    </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="consultation">Free Consultation</option>
+                                        <option value="not-sure">Not Sure / Need Guidance</option>
+                                    </optgroup>
+                                </select>
+                                <div class="treatment-info">
+                                    Don't worry if you're unsure—we'll help you determine the best treatment during your visit.
+                                </div>
+                            </div>
+
+                            <!-- Preferred Date and Time -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="preferredDate">
+                                        Preferred Date <span class="required">*</span>
+                                    </label>
+                                    <input type="date" id="preferredDate" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="preferredTime">
+                                        Preferred Time <span class="required">*</span>
+                                    </label>
+                                    <select id="preferredTime" class="form-select" required>
+                                        <option value="">Select time...</option>
+                                        <option value="morning">Morning (9 AM - 12 PM)</option>
+                                        <option value="afternoon">Afternoon (12 PM - 3 PM)</option>
+                                        <option value="evening">Evening (3 PM - 6 PM)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Additional Notes -->
+                            <div class="form-group">
+                                <label class="form-label" for="message">
+                                    Additional Notes (Optional)
+                                </label>
+                                <textarea id="message" class="form-textarea" placeholder="Tell us about any specific concerns, questions, or special requirements..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-button">
+                            Book Appointment
+                        </button>
+
+                        <!-- MICRO-TRUST UNDER BUTTON -->
+                        <div class="button-trust">
+                            No commitment. We'll confirm before scheduling.
+                        </div>
+
+                        <!-- Form Note -->
+                        <p class="form-note">
+                            By submitting this form, you agree to our privacy policy. We'll contact you within 24 hours.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+       <footer class="footer-section">
+        <div class="footer-container">
+            <!-- Footer Main Grid -->
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h2 class="footer-logo">SmileFix Dental Care</h2>
+                    <p class="footer-description">
+                        Expert dental care and smile transformations with advanced technology and personalized treatment. Creating beautiful, healthy smiles that last a lifetime.
+                    </p>
+                    <div class="footer-badge">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                        Caring for Chennai since 2010
+                    </div>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Quick Links</h3>
+                    <nav class="footer-links">
+                        <a href="index.html" class="footer-link">Home</a>
+                        <a href="about.html" class="footer-link">About Us</a>
+                        <a href="treatments.html" class="footer-link">Services</a>
+                        <a href="contact.html" class="footer-link">Patient Reviews</a>
+                    </nav>
+                </div>
+
+                <!-- Services Column -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Our Services</h3>
+                    <nav class="footer-links">
+                        <a href="treatment.html" class="footer-link">Dental Implants</a>
+                        <a href="treatment.html" class="footer-link">Orthodontic Correction</a>
+                        <a href="treatment.html" class="footer-link">Esthetic Veneers</a>
+                        <a href="treatment.html" class="footer-link">Teeth Whitening</a>
+                        <a href="treatment.html" class="footer-link">Crowns & Bridges</a>
+                        <a href="treatment.html" class="footer-link">Emergency Care</a>
+                    </nav>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Contact Info</h3>
+                    <div class="contact-info-list">
+                        <!-- Phone -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info-content">
+                                <div class="contact-label">Phone</div>
+                                <div class="contact-value">
+                                    <a href="tel:+919994827342">09994827342</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info-content">
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">
+                                    <a href="mailto:info@smilefix.com">dr.joyangel@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info-content">
+                                <div class="contact-label">Address</div>
+                                <div class="contact-value">
+                                    1 Ramakrishna Street Mannivakkam,<br>
+                                    Vandalur, Chennai, Tamil Nadu 600048
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info-content">
+                                <div class="contact-label">Hours</div>
+                                <div class="hours-box">
+                                    <div class="hours-row">
+                                        <span class="hours-day">Monday - Friday</span>
+                                        <span class="hours-time">10am - 2pm & 5pm - 8pm</span>
+                                    </div>
+                                    <div class="hours-row">
+                                        <span class="hours-day">Saturday Morning</span>
+                                        <span class="hours-time">10am - 2pm</span>
+                                    </div>
+                                    <div class="hours-row">
+                                        <span class="hours-day">Sunday</span>
+                                        <span class="hours-time hours-closed">Closed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div>
+                    <div class="footer-copyright">
+                        © 2025 SmileFix Dental Care. All rights reserved.
+                    </div>
+                    <div class="footer-credentials">
+                        Dr. Joy Angel, BDS (Advanced Dental care with Minimally Invasive protocols)
+                    </div>
+                </div>
+                <div class="footer-legal">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#disclaimer">Disclaimer</a>
+                    <a href="https://shavanxcoder.space" class="footer-legal-link" target="_blank" rel="noopener noreferrer" title="Developed by shavanxcoder">Developed by ShavanXCoder</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<!-- End of Page Content -->
+ <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    // Replace with your actual public key
+    emailjs.init("ECj4Qn_Fgia0_Q-1o");
+</script>
+
+    <script src="treatment.js"></script>
+</body>
+</html>
